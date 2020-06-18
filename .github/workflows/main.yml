@@ -32,4 +32,4 @@ jobs:
     - name: Run Surge installation
       run: npm install -g surge
     - name: deploy using surge 
-      run: surge ./ knowledgeable-veil.surge.sh --token ${{ secrects.SURGE_TOKEN }}
+      run: surge ./ knowledgeable-veil.surge.sh --token ${{ secrets.SURGE_TOKEN }}
